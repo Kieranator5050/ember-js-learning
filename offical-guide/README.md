@@ -2,6 +2,7 @@
 - Finished Guide Website Repo - https://github.com/ember-learn/super-rentals/tree/super-rentals-tutorial-output
 
 # Notes
+- The `application.hbs` template is the base template that runs for all routes.
 
 ## Routing
 - Define routes in `router.js`. A route name maps to a template name.
