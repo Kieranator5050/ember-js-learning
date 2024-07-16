@@ -9,6 +9,12 @@
 
 ## Testing
 - Run the test server with ember t -s
+
 ### Acceptance Tests
+- `ember generate acceptance-test {test-name}`
 - These test the app from the user's perspective. 
 - An automated way of just "clicking around and finding out"
+
+### Component Tests
+- `ember generate component-test {component-name}`
+- Used to test single components.
