@@ -3,3 +3,6 @@
 
 # Notes
 
+## Routing
+- Define routes in `router.js`. A route name maps to a template name.
+- For providing links to routes use the ember component `<LinkTo/>` over `<a/>` tags.
