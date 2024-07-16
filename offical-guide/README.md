@@ -6,3 +6,9 @@
 ## Routing
 - Define routes in `router.js`. A route name maps to a template name.
 - For providing links to routes use the ember component `<LinkTo/>` over `<a/>` tags.
+
+## Testing
+- Run the test server with ember t -s
+### Acceptance Tests
+- These test the app from the user's perspective. 
+- An automated way of just "clicking around and finding out"
