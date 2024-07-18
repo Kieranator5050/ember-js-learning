@@ -8,6 +8,13 @@
 - Define routes in `router.js`. A route name maps to a template name.
 - For providing links to routes use the ember component `<LinkTo/>` over `<a/>` tags.
 
+## Components
+- `ember generate component {component-name} --with-component-class`
+
+### Component Classes
+- `ember generate component-class rental/image`
+- Usually will use the @glimmer/component class but can see @ember/components class in older apps.
+
 ## Testing
 - Run the test server with ember t -s
 
