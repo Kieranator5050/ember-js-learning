@@ -7,6 +7,7 @@
 ## Routing
 - Define routes in `router.js`. A route name maps to a template name.
 - For providing links to routes use the ember component `<LinkTo/>` over `<a/>` tags.
+- _model hook in a route file fetches and prepares the data into a model object that is returned
 
 ## Components
 - `ember generate component {component-name} --with-component-class`
