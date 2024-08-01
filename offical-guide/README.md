@@ -16,6 +16,9 @@
 - `ember generate component-class rental/image`
 - Usually will use the @glimmer/component class but can see @ember/components class in older apps.
 
+## Services
+- Define with `@service serviceName` or to change its reference name `@service('serviceName') referencedName`
+
 ## Testing
 - Run the test server with ember t -s
 
@@ -27,3 +30,7 @@
 ### Component Tests
 - `ember generate component-test {component-name}`
 - Used to test single components.
+
+### Mocking/Stubbing Services
+- Check how this is done in share-button-test.js
+- Use the `beforeEach` hook to register a mock service for each test
