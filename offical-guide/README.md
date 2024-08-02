@@ -19,6 +19,12 @@
 ## Services
 - Define with `@service serviceName` or to change its reference name `@service('serviceName') referencedName`
 
+## Models / EmberData
+- `ember generate model {model-name}` or create a test with `ember generate model-test {model-name}`
+- In order to make the store service available we create the following: `app/services/store.js` and add `export { default } from 'ember-data/store';`
+- When we have custom urls we need to specify a namespace in `app.js` and also update the request-manager in `app/services/request-manager`. 
+  - The store service will also need to be updated with the new request manager.
+
 ## Testing
 - Run the test server with ember t -s
 
