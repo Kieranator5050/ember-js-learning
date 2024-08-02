@@ -13,8 +13,13 @@
 - `ember generate component {component-name} --with-component-class`
 
 ### Component Classes
-- `ember generate component-class rental/image`
+- `ember generate component-class {component-name}`
 - Usually will use the @glimmer/component class but can see @ember/components class in older apps.
+
+### Provider Components
+- These are regular components but do some manipulation of data before rendering results.
+  - See the `rentals` and `filter` component for usage
+  - The filter component just yields the data that will be passed down
 
 ## Services
 - Define with `@service serviceName` or to change its reference name `@service('serviceName') referencedName`
